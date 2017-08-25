@@ -30,7 +30,7 @@ app.get('/Phone', (req, res) => {
 });
 
 app.get('/Position', (req, res) => {
-  res.send('Front-End Developer');
+  res.send('Frontend Systems Engineer');
 });
 
 app.get('/Years', (req, res) => {
@@ -38,7 +38,7 @@ app.get('/Years', (req, res) => {
 });
 
 app.get('/Referrer', (req, res) => {
-  res.send('Hired.com');
+  res.send('Michael Grosinger via Hired.com');
 });
 
 app.get('/Degree', (req, res) => {
@@ -58,7 +58,8 @@ app.get('/Status', (req, res) => {
 });
 
 app.get('/Puzzle', (req, res) => {
-  const split = d.split('\n');
+  let equalIndex;
+  let solution;
   let row1 = [];
   let row2 = [];
   let row3 = [];
@@ -69,8 +70,7 @@ app.get('/Puzzle', (req, res) => {
   const solRow3 = [];
   const solRow4 = [];
   const solRow5 = [];
-  let equalIndex;
-  let solution;
+  const split = d.split('\n');
 
   // Split each row to get individual elements
   for (let i = 0; i < split.length; i++) {
