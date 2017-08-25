@@ -1,0 +1,14 @@
+{
+  "name": "bRealTime",
+  "version": "0.0.1",
+  "description": "bRealTime Coding Challenge",
+  "main": "server/server.js",
+  "author": "Alex Biczak (alex.biczak@gmail.com)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
