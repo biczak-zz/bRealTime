@@ -46,7 +46,7 @@ app.get('/Degree', (req, res) => {
 });
 
 app.get('/Resume', (req, res) => {
-  res.send('Resume: https://drive.google.com/file/d/0B_ZtNm8hOb6rSnlaSkpNal8xbTQ/view?usp=sharing \n Cover Letter: https://docs.google.com/document/d/1CkLl1M96CUJVdmmqodvKkxI1eTs7gHvxy6BtzHqbdQY/edit?usp=sharing');
+  res.send('Resume: https://drive.google.com/file/d/0B_ZtNm8hOb6rSnlaSkpNal8xbTQ/view?usp=sharing\nCover Letter: https://docs.google.com/document/d/1CkLl1M96CUJVdmmqodvKkxI1eTs7gHvxy6BtzHqbdQY/edit?usp=sharing');
 });
 
 app.get('/Source', (req, res) => {
